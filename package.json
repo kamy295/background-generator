@@ -2,5 +2,9 @@
   "name": "background-generator",
   "version": "0.1.0",
   "homepage": "http://kamy295.github.io/background-generator",
-  "private": true
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
+}
